@@ -3,9 +3,10 @@
 <!DOCTYPE html>
 <%@ page import = "Database.*" %>
 <%
+	//update
 	Database.query_update db_update = new Database.query_update();
-	db_update.create_table("Create Table msg(channel varchar(16), id varchar(32), msg varchar(32))");
-	db_update.insert_table("insert into msg values ('SBS', 'ID', '들어감')");
+	//db_update.create_table("Create Table msg(channel varchar(16), id varchar(32), msg varchar(32))");
+	//db_update.insert_table("insert into msg values ('SBS', 'ID', '들어감')");
 %>
 
 <html>
